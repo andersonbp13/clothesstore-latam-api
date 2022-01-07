@@ -1,1 +1,1 @@
-web: java -Dspring.profiles.active=default -Dserver.port=$PORT -war target/*.war
+web: java -jar target/dependency/webapp-runner.jar --port $PORT simple-war-0.1.war
